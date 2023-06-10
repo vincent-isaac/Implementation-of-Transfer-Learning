@@ -9,12 +9,17 @@ The dataset is divided into five training batches and one test batch, each with 
 Here are the classes in the dataset, as well as 10 random images from each:
 
 
-VGG19 is a variant of the VGG model which in short consists of 19 layers (16 convolution layers, 3 Fully connected layer, 5 MaxPool layers and 1 SoftMax layer).
+VGG19 is a variant of the VGG model which in short consists of 19 layers (16 convolution layers, 3 Fully connected layer, 5 MaxPool layers, and 1 SoftMax layer).
 
-Now we have use transfer learning with the help of VGG-19 architecture and use it to classify the CIFAR-10 Dataset
+Now we have used transfer learning with the help of VGG-19 architecture and use it to classify the CIFAR-10 Dataset
 </br>
 </br>
 </br>
+
+## DATA SET
+
+![image](https://github.com/vincent-isaac/Implementation-of-Transfer-Learning/assets/75234588/1f610a44-a0d3-47dc-a44d-3375a1c898a2)
+
 
 ## DESIGN STEPS:
 
@@ -34,7 +39,7 @@ Compile and fit the model
 Predict for custom inputs using this model
 
 ## PROGRAM:
-NAME : vINCENT ISAAC JEYARAJ J </BR>
+NAME : VINCENT ISAAC JEYARAJ J </BR>
 REG NO :212220230060
 ```python
 import pandas as pd
